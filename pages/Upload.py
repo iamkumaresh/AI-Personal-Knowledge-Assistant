@@ -32,6 +32,7 @@ except Exception:
 apply_global_styles()
 
 # Render Sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Upload")
 
 # Render Header

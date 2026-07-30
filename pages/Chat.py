@@ -34,6 +34,7 @@ except Exception:
 apply_global_styles()
 
 # Render standard sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Chat")
 
 # Render Header

@@ -36,6 +36,7 @@ except Exception:
 apply_global_styles()
 
 # Render sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Settings")
 
 # Render Header

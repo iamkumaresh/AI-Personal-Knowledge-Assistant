@@ -23,6 +23,7 @@ except Exception:
 apply_global_styles()
 
 # Render Sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Dashboard")
 
 # Page-Specific Styling: Remove Streamlit padding for a true full-width web landing page

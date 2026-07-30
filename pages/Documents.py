@@ -30,6 +30,7 @@ except Exception:
 apply_global_styles()
 
 # Render sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Library")
 
 # Render Header

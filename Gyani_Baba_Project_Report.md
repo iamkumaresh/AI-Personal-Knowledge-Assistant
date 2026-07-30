@@ -1361,6 +1361,7 @@ except Exception:
 apply_global_styles()
 
 # Render standard sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Chat")
 
 # Render Header
@@ -1620,6 +1621,7 @@ except Exception:
 apply_global_styles()
 
 # Render Sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Upload")
 
 # Render Header
@@ -1831,6 +1833,7 @@ except Exception:
 apply_global_styles()
 
 # Render sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Library")
 
 # Render Header
@@ -2000,6 +2003,7 @@ except Exception:
 apply_global_styles()
 
 # Render sidebar
+importlib.reload(components.sidebar)
 render_sidebar("Settings")
 
 # Render Header
