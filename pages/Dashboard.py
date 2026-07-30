@@ -576,7 +576,6 @@ landing_html = """
                 <a href="/Upload" target="_self">Upload PDF</a>
                 <a href="/Chat" target="_self">AI Chat</a>
                 <a href="/Documents" target="_self">Library</a>
-                <a href="/Settings" target="_self">Settings</a>
             </div>
         </div>
         <div>
@@ -700,7 +699,6 @@ landing_html = """
                     </div>
                     <div class="footer-col">
                         <span class="footer-col-title">Config</span>
-                        <a href="/Settings" target="_self">Settings</a>
                         <a href="/Documents" target="_self">Library</a>
                     </div>
                 </div>

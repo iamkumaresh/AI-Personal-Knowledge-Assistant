@@ -29,7 +29,6 @@ def render_sidebar(active_page: str = ""):
         upload_active = 'active-sidemenu-link' if active_page == 'Upload' else ''
         chat_active = 'active-sidemenu-link' if active_page == 'Chat' else ''
         library_active = 'active-sidemenu-link' if active_page == 'Library' else ''
-        settings_active = 'active-sidemenu-link' if active_page == 'Settings' else ''
         
         # Navigation Menu (Material Icons and clean Inter font navigation list)
         nav_html = f"""
@@ -51,10 +50,6 @@ def render_sidebar(active_page: str = ""):
             <a href="/Documents" target="_self" class="sidemenu-link {library_active}">
                 <span class="material-symbols-outlined" style="font-size: 1.25rem;">library_books</span>
                 Document Library
-            </a>
-            <a href="/Settings" target="_self" class="sidemenu-link {settings_active}">
-                <span class="material-symbols-outlined" style="font-size: 1.25rem;">settings</span>
-                Settings
             </a>
         </div>
         """
